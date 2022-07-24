@@ -36,3 +36,9 @@ There are the following types of selectors:
     * Combined Selector
 
 */
+
+/* This is a universal selector which selects all elements. */
+
+* {
+    color: white;
+}
