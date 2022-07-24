@@ -1,3 +1,24 @@
 p {
     color: green;
 }
+
+/* 
+
+The structure of the CSS file is as follows:
+
+selector {
+    property1: value1;
+    property2: value2;
+    property3: value3;
+}
+
+The selector is which element you want to style. The property is the CSS property 
+you want to style. The value is the value of the property. We can also select multiple 
+elements by using a comma separated list of selectors.
+
+Property is for example color, background-color, font-size, etc. Value is the value 
+we want to set the property to.
+
+*/
+
+
