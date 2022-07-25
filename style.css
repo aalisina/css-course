@@ -51,7 +51,7 @@ h2 {
 
 */
 
-/* This is a class selector which selects all elements with a specific class. */
+/* This is a class selector which selects all elements with a specific class. 
 
 .red-h1 {
     color: red;
@@ -60,3 +60,15 @@ h2 {
 .black-h1 {
     color: black;
 }
+
+*/
+
+/* This is an ID selector which selects all elements with a specific ID. With a tag 
+we select all the same elements. With the ID selector only the element with that 
+specific ID */
+
+#abc {
+    color: red;
+}
+
+
