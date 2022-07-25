@@ -75,8 +75,13 @@ instead for that purpose
 */
 
 /* This is an attribute selector which selects all elements with a specific attribute.  */
-
+/* 
 [drink] {
+    color: blue;
+} */
+
+
+[drink="beer"] {
     color: blue;
 }
 
