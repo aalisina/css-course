@@ -66,10 +66,19 @@ h2 {
 /* This is an ID selector which selects all elements with a specific ID. With a tag 
 we select all the same elements. With the ID selector only the element with that 
 specific ID. We should never use the same id for multiple elements. We can use class 
-instead for that purpose */
+instead for that purpose 
 
 #abc {
     color: red;
 }
+
+*/
+
+/* This is an attribute selector which selects all elements with a specific attribute.  */
+
+[drink] {
+    color: blue;
+}
+
 
 
