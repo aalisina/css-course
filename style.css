@@ -98,7 +98,24 @@ h1:hover {
 
 An example of a pseudo-element selector is ::before. This is a pseudo-element selector
 
-*/
+
 h1::first-letter {
+    color: red;
+}
+
+
+
+/* This is a combined selector which selects all elements with a specific class and a specific attribute.  
+
+There are four different combinators in CSS:
+
+descendant selector (space)
+child selector (>)
+adjacent sibling selector (+)
+general sibling selector (~)
+
+*/
+
+h1 p {
     color: red;
 }
