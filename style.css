@@ -124,8 +124,13 @@ h1 p {
 h1 > p {
     color: blue;
 }
-*/
+
 
 h1 + h1 {
     background-color: blue;
+}
+*/
+
+h1 ~ h1 {
+    color: red;
 }
