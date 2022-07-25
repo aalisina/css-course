@@ -42,3 +42,9 @@ There are the following types of selectors:
 * {
     color: black;
 }
+
+/* This is a tag selector which selects a specific element. */
+
+p {
+    color: red;
+}
