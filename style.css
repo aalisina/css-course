@@ -78,12 +78,18 @@ instead for that purpose
 /* 
 [drink] {
     color: blue;
-} */
+} 
 
 
 [drink="beer"] {
     color: blue;
 }
+*/
 
+/* This is a pseudo-class selector which selects all elements with a specific pseudo-class.  */
+
+h1:hover {
+    color: blue;
+}
 
 
