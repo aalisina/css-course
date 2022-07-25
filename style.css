@@ -43,8 +43,20 @@ There are the following types of selectors:
     color: black;
 } */
 
-/* This is a tag selector which selects a specific element. */
+/* This is a tag selector which selects a specific element. 
 
 h2 {
     color: red;
+} 
+
+*/
+
+/* This is a class selector which selects all elements with a specific class. */
+
+.red-h1 {
+    color: red;
+}
+
+.black-h1 {
+    color: black;
 }
