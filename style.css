@@ -86,10 +86,19 @@ instead for that purpose
 }
 */
 
-/* This is a pseudo-class selector which selects all elements with a specific pseudo-class.  */
+/* This is a pseudo-class selector which selects all elements with a specific pseudo-class.  
 
 h1:hover {
     color: blue;
 }
 
+*/
 
+/* This is a pseudo-element selector which selects all elements with a specific pseudo-element.  
+
+An example of a pseudo-element selector is ::before. This is a pseudo-element selector
+
+*/
+h1::first-letter {
+    color: red;
+}
