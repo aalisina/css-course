@@ -114,8 +114,13 @@ child selector (>)
 adjacent sibling selector (+)
 general sibling selector (~)
 
-*/
+
 
 h1 p {
     color: red;
+}
+*/
+
+h1 > p {
+    color: blue;
 }
