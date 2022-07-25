@@ -39,12 +39,12 @@ There are the following types of selectors:
 
 /* This is a universal selector which selects all elements. */
 
-* {
+/* * {
     color: black;
-}
+} */
 
 /* This is a tag selector which selects a specific element. */
 
-p {
+h2 {
     color: red;
 }
