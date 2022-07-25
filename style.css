@@ -135,3 +135,6 @@ h1 ~ h1 {
     color: red;
 }
 */
+
+/* Specificity is an algorithm that calculates the weight 
+that is applied to a given CSS declaration.   */
