@@ -151,7 +151,7 @@ attribute selector
 
 tag selector
 pseudo-element selector
-*/
+
 h1 {
     color: red;
 }
@@ -159,3 +159,7 @@ h1 {
 h1 {
     color: blue;
 }
+
+Bottomline: the more specific the selector, the higher the weight.
+
+*/
