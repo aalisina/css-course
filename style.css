@@ -138,3 +138,16 @@ h1 ~ h1 {
 
 /* Specificity is an algorithm that calculates the weight 
 that is applied to a given CSS declaration.   */
+
+/* The hierarchy of specificity is the following:
+
+!important
+inline style
+ID selector
+Class selector
+pseudo-class selector
+attribute selector
+
+tag selector
+pseudo-element selector
+*/
