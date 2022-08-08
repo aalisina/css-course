@@ -171,8 +171,9 @@ h1 {
 Bottomline: the more specific the selector, the higher the weight.
 When you select two elements with the same specificity group, the one that is
  last in the CSS file will be used.
-*/
+
 
 h1 {
     color: red !important;
 }
+*/
