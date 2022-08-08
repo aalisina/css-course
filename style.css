@@ -140,15 +140,23 @@ h1 ~ h1 {
 /* Specificity is an algorithm that calculates the weight 
 that is applied to a given CSS declaration.   */
 
-/* The hierarchy of specificity is the following:
+/* The hierarchy of specificity is the following, each group of selectors has the same weight:
 
-!important
+FIRST GROUP
+!important 
+
+SECOND GROUP
 inline style
+
+THIRD GROUP
 ID selector
+
+FOURTH GROUP
 Class selector
 pseudo-class selector
 attribute selector
 
+FIFTH GROUP
 tag selector
 pseudo-element selector
 
@@ -161,5 +169,6 @@ h1 {
 }
 
 Bottomline: the more specific the selector, the higher the weight.
-
+When you select two elements with the same specificity group, the one that is
+ last in the CSS file will be used.
 */
