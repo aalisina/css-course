@@ -1,8 +1,9 @@
+/* 
 p {
     color: green;
 }
 
-/* 
+
 
 The structure of the CSS file is as follows:
 
@@ -151,3 +152,10 @@ attribute selector
 tag selector
 pseudo-element selector
 */
+h1 {
+    color: red;
+}
+
+.text {
+    color: blue;
+}
