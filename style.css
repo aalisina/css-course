@@ -198,3 +198,7 @@ Modifier which adds additional styles to a specific element(s).
     color: orange;
 
 }
+.subscribe__input:last-child {
+    background-color: beige;
+    color: blueviolet;
+}
