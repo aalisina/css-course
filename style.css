@@ -222,12 +222,29 @@ pixels (px), meters (m), centimeters (cm), and millimeters (mm).
 Examples of relative measurements are:
 percentage (%), em (em), ex (ex), and rem (rem).
 
-*/
+
 
 .subscribe__div-p {
     font-size: 15mm;
 }
 .subscribe__div-p {
     font-size: 15pp;
+}
+*/
+
+
+
+/*
+We should avoid using fixed measurements in CSS if we want to create a responsive website.
+
+Relative measurements are for example rem and em. 
+By default, the font-size of the root element is set to 16px.
+
+*/
+.subscribe__div-p {
+    font-size: 48px;
+}
+.subscribe__div-p {
+    font-size: 3em;
 }
 
