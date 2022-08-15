@@ -191,7 +191,7 @@ Element which acts as a specific part of the component.
 
 Modifier which adds additional styles to a specific element(s).
 
-*/
+
 
 .subscribe__input:first-child {
     background-color: blue;
@@ -206,3 +206,4 @@ Modifier which adds additional styles to a specific element(s).
     background-color: orange;
     color: blue;
 }
+*/
