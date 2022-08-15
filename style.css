@@ -202,3 +202,7 @@ Modifier which adds additional styles to a specific element(s).
     background-color: beige;
     color: blueviolet;
 }
+.subscribe__input--active {
+    background-color: orange;
+    color: blue;
+}
