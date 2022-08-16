@@ -261,8 +261,13 @@ the default size for 1 em for all the elements.
     margin: 0;
 }
 
-.subscribe {
+/* .subscribe {
     background-color: aqua;
     width: 50vw;
     height: 50vh;
+} */
+.subscribe {
+    background-color: aqua;
+    width: 50%;
+    height: 50%;
 }
