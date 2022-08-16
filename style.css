@@ -248,3 +248,10 @@ By default, the font-size of the root element is set to 16px.
     font-size: 3em;
 }
 
+/*
+
+When we change any of the measurements of for example padding, margin or anything else,
+the child elements will inherit that value as 1 em and the browser will recalculate 
+the default size for 1 em for all the elements.
+
+*/
