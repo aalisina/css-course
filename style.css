@@ -277,9 +277,9 @@ the default size for 1 em for all the elements.
 }
 .subscribe__div-p {
     font-size: 3em;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Open Sans', sans-serif;
     line-height: 2;
-    font-weight: bold;
+    font-weight: 1000;
     font-variant: small-caps;
 }
 
