@@ -241,8 +241,8 @@ Relative measurements are for example rem and em.
 By default, the font-size of the root element is set to 16px.
 
 */
-.subscribe__div-p {
-    font-size: 48px;
+.subscribe {
+    font-size: 5px;
 }
 .subscribe__div-p {
     font-size: 3em;
