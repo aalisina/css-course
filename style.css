@@ -278,7 +278,28 @@ the default size for 1 em for all the elements.
 .subscribe__div-p {
     font-size: 3em;
     font-family: 'Courier New', Courier, monospace;
-    line-height: 1.5;
+    line-height: 2;
     font-weight: bold;
     font-variant: small-caps;
 }
+
+.subscribe__div-p:first-child {
+    background-color: orange;
+    
+}
+.subscribe__div-p:last-child {
+    background-color: aqua;
+}
+
+/*
+
+Font-size is obviously the size of the text. Font-family is the font family of the text or which 
+font to use. 
+
+Line-height is the height of the text. The line-height originates from the center of
+a letter in y axis. A line-height of 1 means 0.5 space towards the the upper and 0.5 towards the 
+downside. 
+
+Font-weight is the weight of the text, for example bold. 
+
+*/
