@@ -302,4 +302,9 @@ downside.
 
 Font-weight is the weight of the text, for example bold. 
 
+Font-variant is the variant of the text, for example small-caps. 
+
+We can find a variety of font-family options in Google Fonts. We separate the font-family names by a comma
+because if we can't find the first one, it will default to the second one after the comma. 
+
 */
