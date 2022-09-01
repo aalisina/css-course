@@ -270,7 +270,7 @@ the default size for 1 em for all the elements.
     background-color: aqua;
     width: 50%;
     height: 50%;
-} */
+} 
 
 .subscribe {
     font-size: 10px;
@@ -290,7 +290,7 @@ the default size for 1 em for all the elements.
 .subscribe__div-p:last-child {
     background-color: aqua;
 }
-
+*/
 /*
 
 Font-size is obviously the size of the text. Font-family is the font family of the text or which 
