@@ -308,3 +308,8 @@ We can find a variety of font-family options in Google Fonts. We separate the fo
 because if we can't find the first one, it will default to the second one after the comma. 
 
 */
+
+body {
+    
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
