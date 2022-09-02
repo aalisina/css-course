@@ -363,9 +363,21 @@ h4, h5, h6 {
 
 h1 {
     background-color: red;
+    padding: 0 10px 30px 60px;
+
+    /* The padding property is used to set the space between the element and its content. 
+    The padding property is a shorthand property for padding-top, padding-right, 
+    padding-bottom, and padding-left in that particular order. */
+
 }
 h2 {
     background-color: blue;
+    padding-top: 0;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+
+    /* This is the same as using the shorthand property for padding above. */
 }
 h3 {
     background-color: green;
