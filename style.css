@@ -272,7 +272,7 @@ the default size for 1 em for all the elements.
     height: 50%;
 } 
 */
-.subscribe {
+/* .subscribe {
     font-size: 10px;
 }
 .subscribe__div-p {
@@ -289,7 +289,7 @@ the default size for 1 em for all the elements.
 }
 .subscribe__div-p:last-child {
     background-color: aqua;
-}
+} */
 
 /*
 
@@ -335,6 +335,9 @@ The element that follows a block element will go below it.
 
 The width of inline elements is the width of the content inside them.
 The element that follows an inline element will go to the right of it if there is enough space.
+
+You can change the type property of an element to make it inline or block.
+You use the type property to make an element inline or block.
 
 */
 
