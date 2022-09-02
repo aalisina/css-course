@@ -350,7 +350,7 @@ use the display property to set it to inline-block.
 */
 
 h1, h2, h3 {
-    display: inline;
+    display: inline-block;
     width: 300px;
     height: 400px;
     
