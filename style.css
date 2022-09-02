@@ -339,15 +339,39 @@ The element that follows an inline element will go to the right of it if there i
 You can change the type property of an element to make it inline or block.
 You use the display property to make an element inline or block.
 
+Boxes have many properties that can be used to change the layout of the element.
+Properties of boxes are for example the background-color, border, border-radius, 
+padding, margin, etc.
+
 */
 
 h1, h2, h3 {
     display: inline;
     width: 300px;
     height: 400px;
+    
 }
 
 h4, h5, h6 {
     width: 300px;
     height: 300px;
+}
+
+h1 {
+    background-color: red;
+}
+h2 {
+    background-color: blue;
+}
+h3 {
+    background-color: green;
+}
+h4 {
+    background-color: yellow;
+}
+h5{
+    background-color: orange;
+}
+h6 {
+    background-color: purple;
 }
