@@ -343,6 +343,10 @@ Boxes have many properties that can be used to change the layout of the element.
 Properties of boxes are for example the background-color, border, border-radius, 
 padding, margin, etc.
 
+If you to be able to use the properties of an inline element on a block element, you can 
+use the display property to set it to inline-block.
+
+
 */
 
 h1, h2, h3 {
