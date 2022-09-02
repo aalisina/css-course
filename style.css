@@ -381,6 +381,11 @@ h2 {
 }
 h3 {
     background-color: green;
+    padding: 10px 60px
+
+    /* 
+    This will give a padding of 10px on the top and bottom, and 60px on the left and right. 
+    */
 }
 h4 {
     background-color: yellow;
