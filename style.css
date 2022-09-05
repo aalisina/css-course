@@ -403,8 +403,14 @@ h5{
 h6 {
     background-color: purple;
     display: inline-block;
+    padding: 200px;
     height: 200px;
     width: 200px;
+    box-sizing: content-box;
 
-    /* This will give a height and width of 200px */
+    /* This will give a height and width of 200px. */
+    
+    /* The box-sizing property is used to set the sizing of the box. If it's set to content box it will 
+    increase or decrease the size with the value of the padding. If it's set to border-box it will 
+    set the box size to the real value we set for the box without increasing or decreasing it. */
 }
