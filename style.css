@@ -395,8 +395,14 @@ h4 {
 }
 h5{
     background-color: orange;
+    padding: 10px 30px 50px;
+    
+    /* This will give a padding of 10px on the top, 30px on the left and right, and 50px on the bottom. */ 
+
 }
 h6 {
     background-color: purple;
-    
+    display: inline-block;
+    height: 200px;
+    width: 200px;
 }
